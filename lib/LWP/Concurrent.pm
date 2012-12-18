@@ -77,11 +77,13 @@ Makes concurrent LWP requests
 =over 4
 
 =item $lwpc = LWP::Concurrent->new( );  # or
+
 =item $lwpc = LWP::Concurrent->new( idlesleep => 0.05, timeout => 0.4 );
 
 returns a new LWP::Concurrent object.  
 
 =item $lwpc->timeout()
+
 =item $lwpc->idlesleep()
 
 Gets or sets the timeout or idlesleep params.
