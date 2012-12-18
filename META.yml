@@ -19,4 +19,4 @@ requires:
   Moo: 1.000006
   Time::HiRes: 0
   URI: 1.60
-version: 0.001_001
+version: 0.001_002

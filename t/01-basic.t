@@ -11,7 +11,7 @@ ok(1);
 
 my $c = LWP::Concurrent->new();
 my @urls = map { "http://joshr.com/index.html" } (1 .. 4); 
-my $returns = $c->get_concurrent( { urls => \@urls } );
+my $returns = $c->get_concurrent( urls => \@urls );
 
 cmp_ok( scalar(@urls), '==', scalar( keys %$returns ) );
 

@@ -7,3 +7,6 @@ dist.ini
 lib/LWP/Concurrent.pm
 t/00-load.t
 t/01-basic.t
+t/release-distmeta.t
+t/release-pod-coverage.t
+t/release-pod-syntax.t
