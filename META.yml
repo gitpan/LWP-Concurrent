@@ -1,0 +1,22 @@
+---
+abstract: 'Runs multiple LWP Client connections in parallel'
+author:
+  - 'joshr <joshr@cpan.org>'
+build_requires: {}
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300028, CPAN::Meta::Converter version 2.120921'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: LWP-Concurrent
+requires:
+  Data::Dumper: 0
+  HTTP::Async: 0.11
+  HTTP::Request: 6.00
+  Moo: 1.000006
+  Time::HiRes: 0
+  URI: 1.60
+version: 0.001_001
